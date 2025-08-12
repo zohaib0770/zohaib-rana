@@ -1,0 +1,30 @@
+/* اردو زبان کے لیے دائیں سے بائیں اور بنیادی اسٹائل */
+body {
+  font-family: 'Noto Nastaliq Urdu', serif, sans-serif;
+  background-color: #f0f0f0;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+header, footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  background-color: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#scanner p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
